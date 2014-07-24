@@ -23,6 +23,7 @@ Write down the following sql statements that are required to solve the following
 
 ```    
 1. Show all the tables.
+\dt
 2. Show all the users. 
 3. Show all the data in the owners table.
 4. Show the names of all owners. 
