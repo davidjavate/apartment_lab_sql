@@ -65,7 +65,7 @@ INSERT INTO properties(name,number_units,owner_id) VALUES ('Archstone',20,4);
 DELETE FROM owners WHERE name ='Janet';
 
 15. Show all of the properties in alphabetical order that are not named Archstone and do not have an id of 3 or 5. 
-SELECT * FROM properties WHERE property_id NOT IN(3,5,7) ORDER BY name ASC;
+SELECT * FROM properties WHERE name <> 'Archstone' AND property_id NOT IN(3,5,7) ORDER BY name ASC;
 
 16. Count the total number of rows in the properties table.
 SELECT COUNT(*) FROM properties;
